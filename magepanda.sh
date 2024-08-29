@@ -608,7 +608,7 @@ systemctl enable trip
 #SERVICE VMESS
 # // Installing UDP Mini
 mkdir -p /usr/local/88numb/
-wget -q -O /usr/local/klmpk/udp-mini "${REPO}limit/udp-mini"
+wget -q -O /usr/local/88numb/udp-mini "${REPO}limit/udp-mini"
 chmod +x /usr/local/88numb/udp-mini
 wget -q -O /etc/systemd/system/udp-mini-1.service "${REPO}limit/udp-mini-1.service"
 wget -q -O /etc/systemd/system/udp-mini-2.service "${REPO}limit/udp-mini-2.service"
@@ -722,9 +722,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user oceantestdigital@gmail.com
-from oceantestdigital@gmail.com
-password jokerman77 
+user oceanstdigital@gmail.com
+from oceanstdigital@gmail.com
+password jokrman77 
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
@@ -862,7 +862,7 @@ print_success "All Packet"
 function menu(){
     clear
     print_install "Memasang Menu Packet"
-    wget https://raw.githubusercontent.com/Andyyuda/v4/main/menu/menu.zip
+    wget https://raw.githubusercontent.com/ataliomego/menu/main/menu.zip
     unzip menu.zip
     chmod +x menu/*
     mv menu/* /usr/local/sbin
